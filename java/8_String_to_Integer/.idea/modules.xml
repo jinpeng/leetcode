@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/8_String_to_Integer.iml" filepath="$PROJECT_DIR$/8_String_to_Integer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/8_String_to_Integer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/8_String_to_Integer_main.iml" group="8_String_to_Integer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/8_String_to_Integer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/8_String_to_Integer_test.iml" group="8_String_to_Integer" />
+    </modules>
+  </component>
+</project>
