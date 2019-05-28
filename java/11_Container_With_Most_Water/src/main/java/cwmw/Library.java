@@ -14,14 +14,17 @@ package cwmw;
 public class Library {
     public int maxArea(int[] height) {
         int maxArea = 0;
-
-        for (int i=0; i<height.length - 1; i++) {
-            for (int j=i+1; j<height.length; j++) {
-                int area = (j - i) * (height[i] < height[j] ? height[i]:height[j]);
-                if (maxArea < area) {
-                    maxArea = area;
-                }
+        int area = 0;
+        int left = 0, right = height.length - 1;
+        while (left < right) {
+            if (height[left] < height[right]) {
+                area = (right - left) * height[left];
+                left ++;
+            } else {
+                area = (right - left) * height[right];
+                right --;
             }
+            if (maxArea < area) maxArea = area;
         }
         return maxArea;
     }
